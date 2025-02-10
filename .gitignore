@@ -1,0 +1,24 @@
+# Игнорировать файл .env
+.env
+
+# Игнорировать папки и файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+venv/
+myvenv/
+env/
+
+# Игнорировать IDE-специфичные файлы
+.vscode/
+.idea/
+
+# Игнорировать логи
+*.log
+
+# Игнорируем зависимости Node.js
+node_modules/
+package-lock.json
